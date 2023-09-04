@@ -32,7 +32,7 @@ Each project is located in its respective folder within this repository. You can
 
 ## License
 
-This repository is licensed under the [LICENSE](LICENSE), which means you are free to use, modify, and distribute the code for personal or commercial projects. Please refer to the License file for more details.
+This repository is licensed under the [MIT LICENSE](LICENSE), which means you are free to use, modify, and distribute the code for personal or commercial projects. Please refer to the License file for more details.
 
 ## Getting Started
 
