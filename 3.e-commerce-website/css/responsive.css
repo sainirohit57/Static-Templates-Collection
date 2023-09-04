@@ -1,0 +1,78 @@
+/* ============================================ Responsive CSS ================================================== */
+
+@media(min-width: 1920px) {   
+ 
+}
+@media(min-width: 1600px) and (max-width: 1900px) {   
+    
+}
+@media(min-width: 1440px) and (max-width: 1600px) {   
+  
+}
+@media(max-width: 1400px) { 
+    
+}
+
+@media(max-width: 992px) {
+/* ===================== Index Page Responsive CSS ============================= */
+
+   /* ===== Navigation Bar ====== */
+   Customers Reviews Slider   /* ==== About Page - Our Story Section ===== */
+   .about-story .mt-10{
+        margin-top: 0%;
+    }
+    /* ==== About Page - Customers Reviews Slider ===== */
+    .about-reviews-slider .slick-prev, .about-reviews-slider .slick-next{
+        display: none !important;
+    }
+    .about-reviews-slider div p{
+        padding: 0;
+    }
+    /* ==== Store Locator Map Section ===== */
+    .store-locator-map-left {
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 767px){
+    /* ===== Index page - Collection Section ====== */
+    .collection-section .position-left {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* ===== About Page - CSS ======= */
+    .about-banner .bg-img div{
+        left: 0;
+        right: 0;
+        transform: translate(0, -50%);
+    }
+    .about-story .mt-10{
+        margin-top: 50px;
+    }
+
+    /* ===== base.css ==== */
+    .mt-md-9{
+        margin-top: 2rem !important;
+    }
+    /* ==== Store Locator Map Section ===== */
+    .store-locator-map-left {
+        max-height: 100%;
+    }
+    /* ==== Comming Soon Page ===== */
+    .comming-soon .fs-44{
+        font-size: 35px !important;
+    }
+}
+
+@media(max-width: 575px) {
+    
+}
+
+@media(max-width: 375px) {
+    
+}
+
+@media(max-width: 330px) {
+    
+}

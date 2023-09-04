@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Font-awesome Icons CSS -->
+	<link rel="stylesheet" href="./css/all.min.css">
+
+	<!-- Slick Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/slick.css">
+
+	<!-- Bootstrap-5 CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/responsive.css">
+
+	<!-- Title -->
+	<title>Shopper</title>
+</head>
+<body>
+
+<main>
+	<!-- ====== Navigation Bar ======= -->
+	<header>
+		<nav class="navbar navbar-expand-lg bg-white my-3">
+		  	<div class="container">
+			    <a class="navbar-brand fs-28 fw-600" href="index.html">Shopper.</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav m-auto">
+				    	<!-- Home -->
+				        <li class="nav-item">
+				            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+				        </li>
+				        <!-- Catalog -->
+				        <li class="nav-item dropdown">
+				          	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Catalog
+				          	</a>
+				          	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          		<!-- Nav-tabs -->
+					            <div class="container">
+					            	<div class="row">
+					            		<div class="col-12">
+					            			<ul class="nav nav-tabs" id="myTab" role="tablist">
+											  <li class="nav-item" role="presentation">
+											    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Women</button>
+											  </li>
+											  <li class="nav-item" role="presentation">
+											    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Men</button>
+											  </li>
+											  <li class="nav-item" role="presentation">
+											    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Kids</button>
+											  </li>
+											</ul>
+					            		</div>
+					            	</div>
+					            </div>
+					            <!-- Tab-content -->
+					            <div class="container">
+					            	<div class="row">
+					            		<div>
+					            			<div class="tab-content" id="myTabContent">
+											  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+											  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+											  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+											</div>
+					            		</div>
+					            	</div>
+					            </div>
+
+				          	</div>
+				        </li>
+				        <!--  -->
+				        <li class="nav-item dropdown">
+				            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Dropdown
+				            </a>
+					        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					            <li><a class="dropdown-item" href="#">Action</a></li>
+					            <li><a class="dropdown-item" href="#">Another action</a></li>
+					            <li><hr class="dropdown-divider"></li>
+					            <li><a class="dropdown-item" href="#">Something else here</a></li>
+					        </ul>
+				        </li>
+				    </ul>
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+						<li class="nav-item"><a href="orders.html" class="nav-link"><i class="fa-regular fa-user"></i></a></li>
+						<li class="nav-item"><a href="wishlist.html" class="nav-link"><i class="fa-regular fa-heart"></i></a></li>
+						<li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i><sup>2</sup></a></li>
+					</ul>
+			    </div>
+		  	</div>
+		</nav>
+	</header>
+
+	<!-- ====== Blog Page Banner Section ======= -->
+	<section class="blog-banner pt-2 border-top">
+		<div class="container">
+            <!-- Breadcrumb -->
+			<div class="row">
+				<div class="col-12">
+					<div class="breadcrumb">
+						<ul class="nav">
+							<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+							<li class="nav-item"><a class="nav-link">Blog</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+            <!-- Heading and list items -->
+			<div class="row">
+				<div class="col-12 mt-6">
+					<h2 class="text-center">Our Blog</h2>
+				</div>
+				<div class="col-12 mt-6 mb-5">
+					<ul class="horizontal-list text-center list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Brand</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Fashion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Shop</a>
+                        </li>
+                    </ul>
+				</div>
+			</div>
+			<!-- Blog Products -->
+            <div class="row g-6 blog-products">
+                <!-- Products 1 -->
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card moved-arrow">
+                        <div class="product-image position-relative">
+                              <a href="blog_post.html">
+                                  <img src="./images/blog-1.jpg" alt="blog image">
+                              </a>
+                          </div>
+                          <div class="text-new">
+                              <span>JUN 20</span>
+                          </div>
+                        <div class="card-body">
+                            <a href="blog_post.html"><h3 class="color-black fs-24">So isn't land signs greater void face replenish.</h3></a>
+                            <p class="color-gray mt-3">Midst one brought greater also morning green saying had good. Open stars day let over gathered, grass face one every light of under.</p>
+                            <a href="blog_post.html" class="btn p-0">Read More <i class="fa-solid fa-arrow-right fs-13 ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Products 2 -->
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card moved-arrow">
+                        <div class="product-image position-relative">
+                              <a href="blog_post.html">
+                                  <img src="./images/blog-4.jpg" alt="Blog image">
+                              </a>
+                          </div>
+                          <div class="text-new">
+                              <span>JUN 20</span>
+                          </div>
+                        <div class="card-body">
+                            <a href="blog_post.html"><h3 class="color-black fs-24">Sea good every which said first divided.</h3></a>
+                            <p class="color-gray mt-3">From fruit shall stars over. Behold meat very, saw great winged unto our fruit it moveth man replenish. Meat place is so fruit.</p>
+                            <a href="blog_post.html" class="btn p-0">Read More <i class="fa-solid fa-arrow-right fs-13 ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Products 3 -->
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card moved-arrow">
+                        <div class="product-image position-relative">
+                              <a href="blog_post.html">
+                                  <img src="./images/blog-5.jpg" alt="Blog image">
+                              </a>
+                          </div>
+                          <div class="text-new">
+                              <span>JUN 20</span>
+                          </div>
+                        <div class="card-body">
+                            <a href="blog_post.html"><h3 class="color-black fs-24">Morning let you created every day.</h3></a>
+                            <p class="color-gray mt-3">Created spirit fly was fifth. Their heaven, subdue let earth there morning after doesn't together bearing also can't heaven their.</p>
+                            <a href="blog_post.html" class="btn p-0">Read More <i class="fa-solid fa-arrow-right fs-13 ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Products 4 -->
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card moved-arrow">
+                        <div class="product-image position-relative">
+                              <a href="blog_post.html">
+                                  <img src="./images/blog-6.jpg" alt="Blog image">
+                              </a>
+                          </div>
+                          <div class="text-new">
+                              <span>JUN 20</span>
+                          </div>
+                        <div class="card-body">
+                            <a href="blog_post.html"><h3 class="color-black fs-24">Third darkness and second dry second greater.</h3></a>
+                            <p class="color-gray mt-3">Let meat subdue the first for fourth is. Them our meat isn't you'll, you're place Years dominion shall from years a hath Good appear yielding.</p>
+                            <a href="blog_post.html" class="btn p-0">Read More <i class="fa-solid fa-arrow-right fs-13 ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Products 5 -->
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card moved-arrow">
+                        <div class="product-image position-relative">
+                              <a href="blog_post.html">
+                                  <img src="./images/blog-7.jpg" alt="Blog image">
+                              </a>
+                          </div>
+                          <div class="text-new">
+                              <span>JUN 20</span>
+                          </div>
+                        <div class="card-body">
+                            <a href="blog_post.html"><h3 class="color-black fs-24">Heaven upon heaven moveth every have.</h3></a>
+                            <p class="color-gray mt-3">Divide own, there tree forth whales you, fill creepeth our. You're itself may yielding green was fly one kind fish hath be be winged.</p>
+                            <a href="blog_post.html" class="btn p-0">Read More <i class="fa-solid fa-arrow-right fs-13 ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Products 6 -->
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card moved-arrow">
+                        <div class="product-image position-relative">
+                              <a href="blog_post.html">
+                                  <img src="./images/blog-8.jpg" alt="Blog image">
+                              </a>
+                          </div>
+                          <div class="text-new">
+                              <span>JUN 20</span>
+                          </div>
+                        <div class="card-body">
+                            <a href="blog_post.html"><h3 class="color-black fs-24">Created their subdue together.</h3></a>
+                            <p class="color-gray mt-3">Stars female night fowl our second in great can't after he sea thing so a said two. Fowl may open first.</p>
+                            <a href="blog_post.html" class="btn p-0">Read More <i class="fa-solid fa-arrow-right fs-13 ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!-- Products Footer row -->
+			<div class="row mt-5 mb-8">
+				<div class="col-12 flex-center flex-column">
+					<span class="fs-15 text-muted">Showing 16 of 24 products</span>
+					<div class="progress mt-4 mb-6">
+						<div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<a href="blog_post.html" class="btn btn-3" style="padding: 12px 22px;">Load more</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ======= Footer ======= -->
+	<footer class="footer pt-8 bg-dark overflow-x-hidden">
+		<div class="container">
+			<!-- Footer Heading row -->
+			<div class="row mb-4 justify-content-center">
+				<div class="col-12 col-md-10 col-lg-8 col-xl-6 text-center">
+					<h2 class="pb-2 color-white">Want style Ideas and Treats?</h2>
+					<form class="d-flex mt-4"> 
+						<input type="email" class="form-control me-3" placeholder="Enter Email*">
+						<button type="button" class="btn">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<!-- Footer Link row -->
+			<div class="row pt-5 pb-5 justify-content-between">
+				<!-- Footer Link row Left col -->
+				<div class="col-12 col-md-3">
+					<h3 class="fw-600 color-white">Shopper.</h3>
+					<div class="footer-icons mt-3">
+						<a href="#!"><i class="fa-brands fa-facebook-f"></i></a>
+						<a href="#!"><i class="fa-brands fa-youtube"></i></a>
+						<a href="#!"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#!"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#!"><i class="fa-brands fa-linkedin"></i></a>						
+					</div>
+				</div>
+
+				<!-- Footer Link row Right col -->
+				<div class="col-12 col-md-9 mt-3 mt-sm-4 mt-md-0">
+					<div class="row">
+						<!-- SUPPORT -->
+						<div class="col-6 col-sm-3 footer-list mt-3 mt-sm-0">
+							<h5 class="fs-16 fw-600 color-white">SUPPORT</h5>
+							<ul class="list-unstyled mt-3">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">FAQs</a></li>
+								<li><a href="#">Size Guide</a></li>
+								<li><a href="#">Shipping & Returns</a></li>
+							</ul>
+						</div>
+						<!-- SHOP -->
+						<div class="col-6 col-sm-3 footer-list mt-3 mt-sm-0">
+							<h5 class="fs-16 fw-600 color-white">SHOP</h5>
+							<ul class="list-unstyled mt-3">
+								<li><a href="#">Men's Shopping</a></li>
+								<li><a href="#">Women's Shopping</a></li>
+								<li><a href="#">Kid's Shopping</a></li>
+								<li><a href="#">Discounts</a></li>
+							</ul>
+						</div>
+						<!-- COMPANY -->
+						<div class="col-6 col-sm-3 footer-list mt-3 mt-sm-0">
+							<h5 class="fs-16 fw-600 color-white">COMPANY</h5>
+							<ul class="list-unstyled mt-3">
+								<li><a href="#">Our Story</a></li>
+								<li><a href="#">Careers</a></li>
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Privacy & Cookie policy</a></li>
+							</ul>
+						</div>
+						<!-- CONTACT -->
+						<div class="col-6 col-sm-3 footer-list mt-3 mt-sm-0">
+							<h5 class="fs-16 fw-600 color-white">CONTACT</h5>
+							<ul class="list-unstyled mt-3">
+								<li><a href="tel:12025550105">1-202-555-0105</a></li>
+								<li><a href="tel:12025550106">1-202-555-0106</a></li>
+								<li><a href="mailto:help@shopper.com">help@shopper.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<!-- Footer bottom row -->
+			<div class="row justify-content-between pt-3 pb-3">
+				<div class="col-12 col-sm-5">
+					<p class="fs-14 text-muted">&copy; 2019 All rights reserved. Designed by Rohit Saini.</p>
+				</div>
+				<div class="col-12 col-sm-7 text-sm-end">
+					<img src="./images/mastercard.svg" style="width: 40px;">
+					<img src="./images/visa.svg" style="width: 40px;">
+					<img src="./images/amex.svg" style="width: 40px;">
+					<img src="./images/paypal.svg" style="width: 40px;">
+					<img src="./images/maestro.svg" style="width: 40px;">
+					<img src="./images/klarna.svg" style="width: 40px;">
+				</div>
+			</div>
+	</footer>
+	
+</main>
+
+
+	<!-- jQuery CDN -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+	  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	  crossorigin="anonymous"></script>
+	
+	<!-- Slick Slider JS -->
+	<script type="text/javascript" src="./js/slick.min.js"></script>
+	
+	<!-- Bootstrap JS -->
+	<script src="./js/bootstrap.min.js"></script>
+
+	<!-- Main JS -->
+	<script src="./js/main.js"></script>
+
+</body>
+</html>

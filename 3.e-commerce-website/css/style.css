@@ -1,0 +1,616 @@
+/* ======================================== Index Page CSS ============================================ */
+
+/* ========= Navigation Bar ========= */
+.navbar .navbar-brand{
+	color: #111;
+}
+.navbar .navbar-nav .nav-link{
+	color: #111;
+	font-weight: 500;
+}
+.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover{
+	color: #ff6f61;
+}
+.navbar .navbar-nav .nav-link sup{
+	background-color: #ff6f61;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px 0;
+    color: white;
+    font-size: 12px;
+    left: -5px;
+    top: -16px;
+}
+
+/* ========== Banner Section ======== */
+/* Moved arrow */
+.moved-arrow .fa-arrow-right {
+	transition: all .3s ease-in-out;
+    transition-property: transform;
+}
+.moved-arrow:hover .fa-arrow-right {
+	transform: translateX(4px);
+}
+.banner-section .card, .banner-section .card img{
+	border: none;
+    border-radius: unset;
+    transition: all .3s ease-in-out;
+}
+.banner-section .card img:hover{
+	filter: brightness(0.85);
+}
+.banner-section .card:hover .btn-1{
+    background-color: #f9f9f9;
+}
+
+/* ====== Collection Section ======= */
+ /* bg image */
+.bg-img {
+    background-size: cover;
+    min-height: 382px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* discount-box */
+.discount-box{
+    background: red !important;
+    border-radius: 50%;
+    color: white !important;
+    margin: 1rem;
+    min-width: 80px;
+    min-height: 80px;
+    opacity: 0.6;
+}
+.discount-box p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+}
+.discount-box span{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+/* ====== Products Section ======= */
+/* Products Section nav-tabs */
+.products-section .nav-tabs{
+	border: none;
+    justify-content: center;
+}
+.products-section .nav-tabs .nav-link {
+	font-weight: 500;
+    color: #111;
+    border: none;
+    padding: 5px;
+    margin: 0 10px;
+}
+.products-section .nav-tabs .active{
+	color: #ff6f61;
+	border-bottom: 1px solid #ff6f61;
+}
+
+/* Products Section tab-content */
+.products-section .tab-content .card{
+	border: none;
+}
+.products-section .tab-content .card .card-body{
+	padding: 1.5rem 0;
+}
+.products-section .tab-content .product-image img{
+	transition: 0.3s ease-in-out;
+}
+.products-section .tab-content .product-second-image{
+	opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.products-section .tab-content .product-image:hover .product-second-image{
+	opacity: 1;
+}
+.card-hover-icon{
+	position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.card-hover-icon a{
+	background-color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    min-width: 38px;
+    min-height: 38px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+    margin: 0 2px;
+    color: #111;
+    transition: 0.2s;
+}
+.card-hover-icon a:hover{
+	color: #fff !important;
+	background-color: #ff6f61 !important;
+}
+.product-image:hover .card-hover-icon{
+    bottom: 15px;
+    opacity: 1;
+}
+/* text-new */
+.text-new, .text-sale{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+.text-new{
+    background-color: #fff;
+    color: #111;
+}
+.text-sale{
+    background-color: #111;
+    color: #fff;
+}
+
+/* ====== Discover more Section ======= */
+.countdown-counter{
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3rem 0;
+    margin: 0;
+}
+.countdown-counter li{
+ 	font-size: 13px;
+    font-weight: 500;
+ }
+.countdown-counter li span{
+ 	font-weight: 500;
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 3rem!important;
+ }
+
+/* ====== Reviews Section ======= */
+.reviews-section .reviews-slider .slick-slide {
+    margin: 1rem !important;
+}
+.slick-dots button{
+	display: none;
+}
+.slick-dots{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.slick-dots li{
+	margin: 0 8px;
+    color: #ccc;
+    font-size: 22px;
+    cursor: pointer;
+}
+.slick-dots .slick-active{
+	color: #ff9736!important;
+}
+.reviews-section .slick-track{
+    display: flex;
+    align-items: center;
+}
+
+/* ====== Shopper Section ======= */
+.shopper-section .shopper-image img{
+	transition: 0.3s ease-in-out;
+}
+.shopper-section .shopper-image .shopper-hover-icon {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+.shopper-section .shopper-image .shopper-hover-icon a{
+ 	font-size: 13px;
+    color: #fff;
+}
+.shopper-section .shopper-image:hover .shopper-hover-icon{
+	opacity: 1;
+}
+.shopper-section .shopper-image:hover img{
+  	filter: brightness(0.75);
+}
+
+/* ======= Footer ======= */
+.footer form input{
+	padding: 15px 30px;
+    /* width: 80%; */
+    background-color: #303030 !important;
+    color: #fff !important;
+    border: 1px solid transparent;
+    border-color: #303030 !important;
+    border-radius: 0;
+}
+.footer form button{
+    padding: 15px 30px;
+	background-color: #525252;
+    color: #fff !important;
+    border: 1px solid transparent;
+    border-color: #525252;
+}
+.footer form input:hover, .footer form input:focus{
+	box-shadow: unset;
+}
+.footer form button:hover, .footer form button:focus{
+	background-color: #4c4c4c;
+	border-color: #4c4c4c;
+}
+.footer-icons a, .footer-list a{
+    color: #a6a6a6;
+    margin: 0px 2px;
+    transition: 0.2s ease;
+}
+.footer-icons a:hover, .footer-list a:hover{
+    color: #909090;
+}
+.footer-list li{
+    line-height: 25px;
+}
+.footer hr{
+    border: none;
+    border-top: 1px solid #605e5e;
+    margin: 1rem -150px;
+}
+    
+
+/* ======================================== Catalog Page CSS ============================================ */
+
+/* ======= Catalog-category Section ======= */
+
+/* === Accordion === */
+.accordion-item{
+    border: none;
+}
+.accordion-item .accordion-button {
+    background: #fff;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111;
+    box-shadow: none;
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+.accordion-item .accordion-body{
+    padding: 0;
+    padding-top: 24px;
+}
+/*.accordion-item .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/icons/down-arrow.png);
+}*/
+.accordion-item .accordion-button::after {
+     background-image: url(../images/icons/down-arrow.png);
+}
+/* Nestead Accordion */
+.nestead-accordion-item .accordion-button::after{
+    display: none;
+}
+.nestead-accordion-item .accordion-button {
+    color: #525252;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+ }
+ /* Style karna hai -------------------------------------------------------------- */
+.accordion-item .accordion-body .custom-checkbox, .nestead-accordion-item .nestead-accordion-body .custom-checkbox{
+    cursor: pointer;
+
+}
+.accordion-item .accordion-body .custom-label, .nestead-accordion-item .nestead-accordion-body .custom-label{
+    padding-left: 12px;
+    color: #767676;
+    cursor: pointer;
+}
+.accordion-item .custom-size-checkbox{
+    display: none;
+}
+.accordion-item .custom-size-label{
+    padding: 10px;
+    min-width: 3rem;
+    border: 1px solid #ddd;
+    color: #767676;
+    cursor: pointer;
+}
+.accordion-item .custom-color-label{
+    padding-left: 12px;
+    color: #111;
+    cursor: pointer;
+}
+ /* Style karna hai -------------------------------------------------------------- */
+.accordion-item .custom-color-checkbox{
+
+}
+.accordion-item ::-webkit-scrollbar {
+  width: 2px;
+}
+.accordion-item ::-webkit-scrollbar-track {
+  background: #ccc; 
+}
+.accordion-item ::-webkit-scrollbar-thumb {
+  background: #111; 
+}
+.catalog-category .slick-dots {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.catalog-category .card-body{
+    width: 100%;
+}
+/* Breadcrumb */
+.breadcrumb{
+    margin: 0;
+}
+.breadcrumb .nav-link{
+    color: #909090;
+    font-size: 14px;
+    display: inline-block;
+}
+.breadcrumb .nav-item:first-child .nav-link{
+    padding-left: 0;
+}
+.breadcrumb .nav-link:hover{
+    color: #767676;
+}
+.breadcrumb .nav-item:last-child .nav-link:hover{
+    color: #909090;
+}
+.breadcrumb .nav .nav-item:first-child:before {
+    content: "";
+}
+.breadcrumb .nav .nav-item:before {
+    content: "\f105";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 12px;
+    /*color: #767676;*/
+    color: #a9a8a8;
+}
+.custom-selector{
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+}
+.custom-selector:focus{
+    border: 1px solid #1f1f1f;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent;
+}
+/* Tags */
+.tags span{
+    background: #f5f5f5;
+    color: #767676!important;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: default;
+    padding: 8px 18px;
+    margin: 0 12px 12px 0;
+    pointer-events: none;
+}
+.tags span a{
+    pointer-events: auto;
+}
+.tags span i{
+    color: #767676;
+    font-size: 14px;
+}
+.tags span:hover{
+    background-color: #e2e2e2;
+}
+/* Images (Products) */
+.catalog-products .card{
+    border: none;
+}
+.catalog-products .card .card-body{
+    padding: 1.5rem 0;
+}
+.catalog-products .product-image img{
+    transition: 0.3s ease-in-out;
+}
+.catalog-products .product-second-image{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.catalog-products .product-image:hover .product-second-image{
+    opacity: 1;
+}
+
+/* ====== Pagination ======== */
+.pagination .page-link{
+    color: #909090;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-color: #e5e5e5;
+    padding: 8px 16px;
+}
+.pagination .page-item:last-child .page-link, .pagination .page-item:first-child .page-link {
+    border: none;
+}
+.pagination .page-link:hover{
+    color: #ff6f61;
+    background-color: transparent;
+}
+.pagination .page-link:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.pagination-active{
+    color: #ff6f61 !important;
+    border-color: #ff6f61 !important;
+}
+
+
+/* ======================================== About Page CSS ============================================ */
+.about-reviews-slider div p{
+    padding: 0 125px;
+}
+.about-reviews-slider .slick-prev, .about-reviews-slider .slick-next{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+}
+.about-reviews-slider .slick-prev{
+    left: 0;
+}
+.about-reviews-slider .slick-next{
+    right: 0;
+}
+.about-reviews-slider .slick-dots{
+    margin-top: 50px;
+}
+.about-footer-banner .bg-img{
+    min-height: 305px;
+}
+.about-footer-banner .btn-1{
+    padding: 14px 35px;
+}
+
+
+/* ======================================== Contact Us Page CSS ============================================ */
+.contact-form input, .contact-form textarea{
+    padding: 14px 20px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e5e5 !important;
+    border-radius: 0;
+}
+.contact-form input:focus, .contact-form textarea:focus{
+    outline: none;
+    border: 1px solid #111 !important;
+}
+
+
+/* =================================== Store Locator Page CSS ======================================= */
+.store-locator-map-left{
+    max-height: 546px;
+}
+.store-locator-map ::-webkit-scrollbar {
+    width: 2px;
+}
+.store-locator-map ::-webkit-scrollbar-track {
+    background: #ccc; 
+}
+.store-locator-map ::-webkit-scrollbar-thumb {
+    background: #111; 
+}
+
+
+/* ==================================== FAQ Page CSS ====================================== */
+.faq-page .accordion-item .accordion-button {
+    border-top: 1px solid rgb(0 0 0 / 10%);
+    border-bottom: none;
+}
+.faq-page .accordion-item .accordion-body {
+    padding: 0;
+    padding-bottom: 24px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #525252;
+}
+
+
+/* ==================================== Comming Soon Page CSS ====================================== */
+.comming-soon{
+    background-image: url(../images/cover-22.jpg);
+    margin-top: -90px;
+}
+.comming-soon .row{
+    min-height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+.comming-soon .countdown-counter li span {
+    color: white !important;
+}
+.comming-soon form input {
+    padding: 15px 30px;
+    background-color: rgba(31,31,31,.4) !important;
+    color: #fff !important;
+    border: 1px solid transparent !important;
+    border-radius: 0;
+}
+.comming-soon form input:focus{
+    box-shadow: none;
+}
+.comming-soon form button {
+    background-color: #0c0c0c;
+    padding: 15px 30px;
+    color: #fff !important;
+    border: 1px solid transparent;
+    border-color: #060606;
+}
+.comming-soon ::placeholder { 
+  color: #fff;
+  opacity: 1; 
+}
+
+
+/* ==================================== 404 Page CSS ====================================== */
+.page-404{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+
+/* ==================================== Blog Page CSS ====================================== */
+.horizontal-list .nav-item{
+    display: inline-block;
+    padding: 0 8px;
+}
+.horizontal-list .nav-link{
+    color: #111;
+    font-weight: 500;
+    padding: 8px 4px;
+}
+.horizontal-list .nav-link:hover{
+    color: #ff6f61;
+}
+.horizontal-list .active{
+    border-bottom: 1px solid #ff6f61;
+    color: #ff6f61;
+}
+.blog-products .card{
+    border: none;
+}
+.blog-products .card .card-body{
+    padding: 1.5rem 0;
+}
+.progress{
+    background-color: rgb(221, 221, 221);
+    height: 2px;
+}
+.progress-bar{
+    background-color: rgb(31, 31, 31);
+}
+.blog-banner .progress{
+    width: 250px;
+}
