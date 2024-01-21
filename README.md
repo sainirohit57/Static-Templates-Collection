@@ -18,6 +18,8 @@ Welcome to my Static-Templates-Collection(HTML-CSS-JS-Templates)! This repositor
 
 7. **Photographer Portfolio**: A portfolio website for photographers to display their work.
 
+8. **Portfolio Template**: A static portfolio template suitable for designers, developers, or anyone seeking a polished showcase.
+
 ## Technologies Used
 
 - HTML

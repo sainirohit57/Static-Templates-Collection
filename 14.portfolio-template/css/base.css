@@ -1,0 +1,336 @@
+/* =========== FONTS IMPORT =========== */
+/* Poppins */
+@font-face {
+    font-family: "Poppins";
+    src: url('../font-family/Poppins/Poppins-Bold.ttf') format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../font-family/Poppins/Poppins-SemiBold.ttf') format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../font-family/Poppins/Poppins-Medium.ttf') format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../font-family/Poppins/Poppins-Regular.ttf') format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../font-family/Poppins/Poppins-Light.ttf') format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('../font-family/Poppins/Poppins-ExtraLight.ttf') format("truetype");
+    font-weight: 200;
+}
+
+/* Playfair_Display_SC */
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../font-family/Playfair_Display/PlayfairDisplay-Bold.ttf') format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../font-family/Playfair_Display/PlayfairDisplay-SemiBold.ttf') format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../font-family/Playfair_Display/PlayfairDisplay-Medium.ttf') format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../font-family/Playfair_Display/PlayfairDisplay-Regular.ttf') format("truetype");
+    font-weight: 400;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0,0,0,0.6);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #23A6F0;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+    font-family: "Playfair_Display";
+    font-weight: 600;
+    color: #1D2043;
+}
+p{
+    font-weight: 300;
+}
+
+img {
+    width: 100%;
+}
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.border-left{
+    border-left: 1px solid #dee2e6 !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+hr{
+    border-bottom: 1px solid #dee2e6 !important;
+    opacity: 1;
+}
+
+.btn:focus{
+    box-shadow: 0 0 0 0 transparent, 0 0 0 0.2rem rgb(228 111 98 / 50%);
+}
+.btn .fa-arrow-right, .btn .fa-arrow-right-long{
+    font-size: 12px;
+    margin-left: 4px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.btn:hover .fa-arrow-right, .btn:hover .fa-arrow-right-long{
+    transform: translateX(4px);
+}
+
+.btn-1 {
+    color: #fff;
+    background-color: rgb(223, 83, 70);
+    padding: 8px 16px;
+}
+.btn-1:hover {
+    color: #fff;
+    background-color: #be493c;
+    border-color: #b24538;
+}
+
+.btn-2 {
+    padding: 0;
+    color: rgb(223, 83, 67) !important;
+    text-decoration: underline;
+}
+.btn-2:hover, .btn-2:focus {
+    text-decoration: underline;
+    color: rgb(178 69 56) !important;
+    box-shadow: none !important;
+}
+
+.btn-3 {
+    background: rgba(248, 249, 250, 0.3);
+    color: white;
+    width: fit-content;
+}
+.btn-3:hover {
+    color: #f8f9fa;
+    background-color: rgba(248,249,250,0.3);
+}
+.btn-3:focus{
+    box-shadow: 0 0 0 0 transparent, 0 0 0 0.2rem rgb(248 249 250 / 50%);
+}
+
+.fs-52 {
+    font-size: 52px;
+}
+.fs-48 {
+    font-size: 48px;
+}
+.fs-36 {
+    font-size: 36px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-28 {
+    font-size: 28px;
+}
+.fs-26 {
+    font-size: 26px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.fw-500 {
+    font-weight: 500 !important;
+}
+.fw-400 {
+    font-weight: 400 !important;
+}
+.fw-300 {
+    font-weight: 300 !important;
+}
+
+.opacity-30{
+    opacity: 0.3 !important;
+}
+.opacity-60{
+    opacity: 0.6 !important;
+}
+
+.links-dark a{
+    color: rgba(0,0,0,0.8);
+}
+.links-dark a:hover, .links-dark a:focus{
+    color: rgba(0,0,0,0.9);
+}
+.text-primary{
+    color: rgb(223, 83, 67) !important;
+}
+.text-secondary{
+    color: rgb(37, 89, 131) !important;
+}
+.text-light-blue {
+    color: rgb(120, 173, 217) !important;
+}
+.text-blue{
+    color: rgb(31, 68, 255) !important;
+}
+.text-pink{
+    color: rgb(240, 20, 189) !important;
+}
+.text-dark{
+    color: rgb(53, 59, 65) !important;
+}
+.text-white{
+    color: #fff !important;
+}
+.text-light-white{
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.bg-primary{
+    background-color: rgb(223, 83, 67) !important;
+}
+.bg-secondary{
+    background-color: rgb(120, 173, 217) !important;
+}
+.bg-yellow{
+    background-color: rgb(255, 193, 5) !important;
+}
+.bg-white{
+    background-color: #fff !important;
+}
+.bg-light{
+    background-color: rgb(249, 250, 251) !important;
+}
+
+.my-6, .mt-6{
+    margin-top: 2rem;
+}
+.my-6, .mb-6{
+    margin-bottom: 2rem;
+}
+
+.py-lg-10{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.py-6, .pt-6{
+    padding-top: 2rem !important;
+}
+.py-6, .pb-6{
+    padding-bottom: 2rem !important;
+}
+.pe-6{
+    padding-right: 2rem !important;
+}
+.ps-6{
+    padding-left: 2rem !important;
+}
+.pb-md-7{
+    padding-bottom: 4rem;
+}
+.py-8{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.px-md-8{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+/* === Title-badge ==== */
+.title-badge{
+    color: rgb(223, 83, 67);
+    background: rgba(223, 83, 67, 0.1);
+    font-size: 14px;
+    padding: 0px 16px;
+    margin-left: 3rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: 22px;
+    position: relative;
+}
+.title-badge::before{
+    content: "";
+    display: block;
+    width: 2rem;
+    position: absolute;
+    left: -3rem;
+    border-top: 1px solid #000;
+}
+
+/* Card */
+.card{
+    border-radius: 10px;
+}

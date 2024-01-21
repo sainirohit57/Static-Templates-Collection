@@ -1,0 +1,148 @@
+/* ========================= INDEX PAGE CSS ====================================== */
+
+/* ======= Navigation Bar ======== */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 111;
+}
+.navbar .navbar-nav{
+    width: 80%;
+    margin: auto;
+}
+
+/* Offcanvas */
+.offcanvas-end {
+    width: 370px;
+}
+.offcanvas-header .btn-close {
+    margin-right: 1rem;
+    margin-top: 0rem;
+}
+.offcanvas-header .btn-close:focus {
+    box-shadow: 0 0 0 0 transparent, 0 0 0 0.2rem rgb(228 111 98 / 50%);
+}
+.offcanvas-body{
+    padding: 0 2rem;
+}
+.offcanvas-body .nav-link{
+    opacity: 0.65;
+    transition: 0.3s;
+    padding: 10px 16px;
+}
+.offcanvas-body .nav-link:hover{
+    color: #DF5646;
+    opacity: 0.85;
+    transform: translateX(3px);
+}
+
+/*  ======= Services Section ========  */
+.circle-icon{
+    background-color: rgb(120, 173, 217);
+    display: flex;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.circle-icon i{
+    color: #fff;
+    font-size: 22px;
+}
+.services-row h3{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*  ======= Skills Section ========  */
+.progress{
+    border-radius: 25px;
+}
+.progress-bar{
+    background-color: rgb(120, 173, 217);
+    border-radius: 25px;
+    text-align: start;
+}
+
+/*  ======= Portfolio Section ========  */
+.single-product{
+    background-color: rgb(249, 250, 251) !important;
+    padding: 30px;
+    border-radius: 10px;
+}
+.single-product h5{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    border-radius: 25px;
+    color: rgb(121 71 0);
+    background-color: #fff4e5;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 28px;
+}
+.single-product h2{
+    color: rgb(58, 57, 94);
+    margin: 24px 0 28px 0;
+    margin: 26px 0;
+    display: block;
+}
+.single-product p{
+    margin-bottom: 28px;
+}
+.single-product .btn{
+    color: rgb(90, 62, 142);
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.single-product .btn .fa-arrow-right-long{
+    font-size: 14px;
+}
+.single-product .btn:focus{
+    box-shadow: none;
+}
+
+/*  ======= Testimonials Section ========  */
+.slick-slider .slick-dots button{
+    display: none;
+}
+.slick-slider .slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.slick-slider .slick-dots li{
+    padding: 0 14px;
+    font-size: 28px;
+    color: #000;
+    opacity: 0.3;
+}
+.slick-slider .slick-dots li.slick-active{
+    opacity: 1;
+}
+
+/*  ======= Contact me Section ========  */
+.form-label{
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #dee2e6 !important;
+    border-radius: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+
+
+/* ========================= SERVICES PAGE CSS ====================================== */
+.service-page .circle-icon{
+    width: 60px;
+    height: 60px;
+}

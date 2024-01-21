@@ -1,0 +1,60 @@
+@media(min-width: 1920px) {   
+ 
+}
+@media(min-width: 1600px) and (max-width: 1900px) {   
+    
+}
+@media(min-width: 1440px) and (max-width: 1600px) {   
+  
+}
+@media(min-width: 1200px) and (max-width: 1440px)  { 
+    
+}
+/* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    
+} */
+@media(max-width: 1400px) { 
+    
+}
+
+@media(max-width: 991px) {
+    .py-lg-10{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+@media (max-width: 767px){
+    .offcanvas-end {
+        width: 300px;
+    }
+    .pb-md-7{
+        padding-bottom: 0rem;
+    }
+    .px-md-8{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #qualification .py-6{
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
+    #contact_me .btn-1{
+      width: 100%;
+    }
+}
+
+@media(max-width: 575px) {
+   
+}
+
+@media(max-width: 375px) {
+    
+}
+
+@media(max-width: 320px) {
+
+}
